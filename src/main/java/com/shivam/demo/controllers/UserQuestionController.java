@@ -13,7 +13,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "https://disturbed-question-production.up.railway.app") // Replace with your frontend's URL
+@CrossOrigin(origins = "*") // Replace with your frontend's URL
 @RequestMapping("/api/user-questions")
 public class UserQuestionController {
 
