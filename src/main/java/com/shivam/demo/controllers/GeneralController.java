@@ -33,6 +33,10 @@ public class GeneralController {
         this.userQuestionService = userQuestionService;
     }
 
+    @PostMapping("/welcome")
+    public String displayText() {
+        return "This is a simple text response from the server !!.";
+    }
     @PostMapping("/api/login")
     public ResponseEntity<?> loginUser(@RequestBody User user) {
         // Authenticate user
