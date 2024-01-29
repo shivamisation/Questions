@@ -19,7 +19,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RestController
-//@CrossOrigin(origins = "http://localhost:3000") // Replace with your frontend's URL
+@CrossOrigin(origins = "https://disturbed-question-production.up.railway.app") // Replace with your frontend's URL
 
 public class GeneralController {
 

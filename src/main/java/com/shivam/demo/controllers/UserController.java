@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-//@CrossOrigin(origins = "http://localhost:3000") // Replace with your frontend's URL
+@CrossOrigin(origins = "https://disturbed-question-production.up.railway.app") // Replace with your frontend's URL
 @RequestMapping("/api/users")
 public class UserController {
 
