@@ -13,7 +13,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000") // Replace with your frontend's URL
+//@CrossOrigin(origins = "http://localhost:3000") // Replace with your frontend's URL
 @RequestMapping("/api/user-questions")
 public class UserQuestionController {
 
